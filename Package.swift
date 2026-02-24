@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HelloWorld",
-            url: "https://github.com/aashish-readwhere/HelloWorldSdk/releases/download/1.0.0/HelloWorld.xcframework.zip",
-            checksum: "paste_your_checksum_here"
+            url: "https://github.com/aashish-readwhere/HelloWorldSpm/releases/download/1.0.0/HelloWorld.xcframework.zip",
+            checksum: "sha256:86d3959c3255941af082a57b01ea39f4b65f2a892db59bddbcf60998e8d6464b"
         )
     ]
 )
