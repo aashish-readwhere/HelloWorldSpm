@@ -11,15 +11,15 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "HelloWorld",
-            targets: ["HelloWorld"]
+            name: "Epaper",
+            targets: ["EpaperSdk"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "HelloWorld",
-            url: "https://github.com/aashish-readwhere/HelloWorldSpm/releases/download/1.0.0/HelloWorld.xcframework.zip",
-            checksum: "86d3959c3255941af082a57b01ea39f4b65f2a892db59bddbcf60998e8d6464b"
+            name: "EpaperSdk",
+            url: "https://github.com/aashish-readwhere/HelloWorldSpm/releases/download/1.0.3/EpaperSdk.xcframework.zip",
+            checksum: "f9866a78098f45a69bc099796583250dee51b97a89dbebfa7b7fa3803333f862"
         )
     ]
 )
